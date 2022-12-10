@@ -1,0 +1,43 @@
+body {
+  max-width: 22rem;
+  padding: 1rem;
+  margin: 0 auto;
+  font-family: sans;
+  box-sizing: border-box;
+}
+
+.field {
+  flex-basis: auto;
+  margin-bottom: 1rem;
+}
+
+.field label {
+  display: block;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.type {
+  padding-bottom: .2rem;
+}
+
+textarea {
+  width: 100%;
+}
+
+/* Layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+button.option {
+  height: 6rem;
+  width: 6rem;
+}
