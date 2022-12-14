@@ -1,43 +1,115 @@
+*  {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  max-width: 22rem;
-  padding: 1rem;
-  margin: 0 auto;
-  font-family: sans;
-  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
 }
 
-.field {
-  flex-basis: auto;
-  margin-bottom: 1rem;
-}
-
-.field label {
-  display: block;
-}
-
-input {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.type {
-  padding-bottom: .2rem;
-}
-
-textarea {
-  width: 100%;
-}
-
-/* Layout */
-.row {
+header {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  justify-content: space-between;
+  height: 100px;
+  border-bottom: 1px solid #333;
 }
 
-button.option {
-  height: 6rem;
-  width: 6rem;
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  list-style: none;
 }
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  display: block;
+  align-items: center;
+  justify-content: center;  
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+.welcome {
+  height: 50rem;
+  /* width: 80%; */
+  border: 1px solid #333;
+  border-radius: 10%;
+  margin: 30px;
+  padding: 0;
+}
+
+.introduction {  
+  height: 45%;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.targets {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+  margin: 30px 30px;
+}
+
+.target {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 33%;
+  border: 1px solid #333;
+  border-radius: 10%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: center;
+  height: 50rem;
+  /* width: 80%; */
+  border: 1px solid #333;
+  border-radius: 10%;
+  margin: 30px;
+  padding: 30px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 35%;
+  width: 33%;
+  border: 1px solid #333;
+  border-radius: 10%;
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+  padding: 0;
+}
+
